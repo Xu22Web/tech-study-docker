@@ -4,7 +4,11 @@
 
 - 基于 `Docker` + `Node.js` 的自动化学习强国工具
 
-- 如果感觉配置麻烦，去看看 [油猴插件脚本版](https://github.com/Xu22Web/tech-study-js '油猴插件脚本版') `https://github.com/Xu22Web/tech-study-js`
+### 建议 Suggestion
+
+- 如果感觉 `docker` 配置繁琐，试试 [油猴插件脚本版](https://github.com/Xu22Web/tech-study-js '油猴插件脚本版')
+
+- 如果不熟悉 `docker` 的运行，试试 [Node.js 版](https://github.com/Xu22Web/tech-study-node 'Node.js 版')
 
 ### 优点 Advantages
 
@@ -13,6 +17,16 @@
 - 基于 `Node.js` 的控制浏览器的行为，安全高效
 
 - 基于 `PushPlus` 推送功能，通过微信远程接收学习情况和服务运行情况
+
+### 交流群 Telegram Group
+
+- 链接： [tech-study 互动群](https://t.me/+IJ_YzNc-Iew0MGRl)
+
+- 二维码：
+
+  <img src="./docs/group.png" style="width:200px;" alt="Telegram邀请二维码">
+
+注：介于国内敏感，暂时不提供其他交流互动方式。
 
 ### 部署与运行 Deploy and Run
 
