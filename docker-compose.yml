@@ -6,7 +6,6 @@ services:
     volumes:
       - ./config:/root/tech-study-node/src/config
       - ./logs:/root/tech-study-node/src/logs
-      - /etc/localtime:/etc/localtime
     container_name: tech-study-docker
     stdin_open: true 
     tty: true

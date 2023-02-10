@@ -1,5 +1,10 @@
 FROM ubuntu:jammy
 
+# 同步时区文件
+COPY zoneinfo /usr/share/zoneinfo
+ENV TZ=Asia/Shanghai
+RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+
 # 工作路径
 WORKDIR /root
 
@@ -42,7 +47,8 @@ RUN cd ./tech-study-node && pnpm install
 
 # 安装 google-chrome
 RUN curl -o google-chrome-stable.deb https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-RUN apt-get install -y ./google-chrome-stable.deb
+RUN apt-get install -y ./google-chrome-stable.deb \
+    && rm ./google-chrome-stable.deb
 
 # 安装 puppteer 依赖
 RUN apt-get install -y \
